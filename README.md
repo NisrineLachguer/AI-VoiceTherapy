@@ -1,122 +1,146 @@
-# AI-VoiceTherapy
+AI-VoiceTherapy
+Plateforme de Rééducation Vocale Automatisée par Intelligence Artificielle
 
-*Automated Voice Rehabilitation Platform Using Artificial Intelligence*
+  Aperçu
+AI-VoiceTherapy est une application mobile qui exploite le modèle Whisper d'OpenAI pour détecter les troubles de la parole et proposer des exercices thérapeutiques personnalisés. La plateforme vise à rendre l’orthophonie plus accessible grâce à une analyse automatisée et des programmes de rééducation sur mesure.
 
-## Overview
+  Fonctionnalités Principales
+Analyse Vocale Automatisée : Détection en temps réel des troubles de la parole grâce à l’IA
 
-AI-VoiceTherapy is a mobile application that leverages OpenAI's Whisper model to detect speech disorders and provide personalized therapeutic exercises. The platform aims to make speech therapy more accessible through automated analysis and tailored rehabilitation programs.
+Thérapie Personnalisée : Exercices adaptés selon les troubles détectés
 
-## Core Features
+Suivi de la Progression : Surveillance complète des progrès de rééducation
 
-- **Automated Speech Analysis**: Real-time detection of speech disorders using AI
-- **Personalized Therapy**: Customized exercises based on detected conditions
-- **Progress Tracking**: Comprehensive monitoring of rehabilitation progress
-- **Professional Integration**: Tools for speech therapists and healthcare providers
+Intégration Professionnelle : Outils dédiés aux orthophonistes et professionnels de santé
 
-## Supported Conditions
+  Troubles Pris en Charge
+Bégaiement
 
-- Stuttering
-- Dysphasia
-- Dysarthria
-- Apraxia of Speech
+Dysphasie
 
-## Technology Stack
+Dysarthrie
 
-### Mobile Application (Android)
-- Java with Android SDK
-- Material Design UI
-- Retrofit for API communication
-- Audio recording and processing
+Apraxie de la parole
 
-### Backend Services
-- Spring Boot framework
-- MySQL database
-- JWT authentication
-- OpenAI Whisper API integration
+  Pile Technologique
+Application Mobile (Android)
+Java avec Android SDK
 
-### AI Components
-- OpenAI Whisper for speech recognition
-- Pattern analysis algorithms
-- Severity scoring system (0-10 scale)
-- Automated exercise generation
+Interface Material Design
 
-## Architecture
+Retrofit pour la communication API
 
-The application follows a three-tier architecture:
-- **Presentation Layer**: Android mobile interface
-- **Business Logic**: Spring Boot REST API
-- **Data Layer**: MySQL database with JPA/Hibernate
+Enregistrement et traitement audio
 
-## Installation Requirements
+Backend
+Framework Spring Boot
 
-### System Prerequisites
-- Android 5.0+ (API 21+)
-- Java JDK 8+
-- MySQL 8.0+
-- Internet connection for AI processing
+Base de données MySQL
 
-### Configuration
-1. Clone repository
-2. Configure MySQL database
-3. Set OpenAI API credentials
-4. Deploy Spring Boot backend
-5. Build Android application
+Authentification JWT
 
-## Usage Workflow
+Intégration de l’API Whisper d’OpenAI
 
-1. **Registration**: Create user account
-2. **Recording**: Capture voice sample (10-30 seconds)
-3. **Analysis**: Automatic processing via Whisper API
-4. **Results**: View diagnosis and severity score
-5. **Therapy**: Access personalized exercises
+Composants IA
+Reconnaissance vocale avec OpenAI Whisper
 
-## Therapeutic Exercises
+Algorithmes d’analyse des schémas vocaux
 
-### Exercise Categories
-- **Sentence Construction**: Grammar and syntax improvement
-- **Word-Image Association**: Vocabulary enhancement
-- **Articulation Training**: Pronunciation exercises
-- **Prosodic Exercises**: Rhythm and intonation work
+Système de notation de sévérité (échelle 0 à 10)
 
-### Progress Monitoring
-- Session completion tracking
-- Performance analytics
-- Severity trend analysis
-- Professional reporting
+Génération automatique d’exercices thérapeutiques
 
-## Limitations
+  Architecture
+L’application suit une architecture en trois couches :
 
-- Requires professional validation for clinical use
-- Audio quality dependent on environment
-- Internet connection required for analysis
-- Currently supports French language only
+Couche Présentation : Interface mobile Android
 
-## Development Team
+Logique Métier : API REST développée avec Spring Boot
 
-**Nissrine Lachguer** - Software Engineering Student, EMSI Marrakesh  
-Contact: nisrinelachguer37@gmail.com
+Couche Données : Base MySQL avec JPA/Hibernate
 
-**Ourda Azizi** - Software Engineering Student, EMSI Marrakesh  
-Contact: Ourdaazizi2@gmail.com
+  Prérequis et Installation
+Pré-requis Système
+Android 5.0+ (API 21+)
 
-*École Marocaine des Sciences de l'Ingénieur (EMSI), Marrakesh, Morocco*
+Java JDK 8+
 
-## Future Development
+MySQL 8.0+
 
-- Multi-language support (Arabic, Berber)
-- iOS application
-- Offline processing capabilities
-- Pediatric adaptation
-- Real-time analysis features
+Connexion Internet pour les traitements IA
 
-## License
+Étapes de Configuration
+Cloner le dépôt GitHub
 
-MIT License - See LICENSE file for details
+Configurer la base MySQL
 
-## Repository
+Définir vos identifiants API OpenAI
 
-[https://github.com/NisrineLachguer/AI-VoiceTherapy](https://github.com/NisrineLachguer/AI-VoiceTherapy)
+Déployer le backend Spring Boot
 
----
+Compiler l’application Android
 
-*AI-VoiceTherapy: Making speech therapy accessible through artificial intelligence*
+  Flux d’Utilisation
+Inscription : Création de compte utilisateur
+
+Enregistrement : Capture d’un échantillon vocal (10 à 30 sec)
+
+Analyse : Traitement automatique via l’API Whisper
+
+Résultats : Affichage du diagnostic et du score de sévérité
+
+Thérapie : Accès aux exercices personnalisés
+
+  Exercices Thérapeutiques
+Catégories d’Exercices
+Construction de Phrases : Amélioration de la syntaxe
+
+Association Mot-Image : Développement du vocabulaire
+
+Entraînement à l’Articulation : Exercices de prononciation
+
+Exercices Prosodiques : Travail du rythme et de l’intonation
+
+Suivi de la Progression
+Historique des séances complétées
+
+Statistiques de performance
+
+Analyse des tendances de sévérité
+
+Rapports pour les professionnels
+
+  Limitations
+Requiert une validation professionnelle pour un usage clinique
+
+Qualité audio dépendante de l’environnement sonore
+
+Nécessite une connexion Internet pour l’analyse
+
+Support actuel uniquement en langue française
+
+  Équipe de Développement
+Nissrine Lachguer – Étudiante en Génie Informatique et réseaux, EMSI Marrakech
+  Contact : nisrinelachguer37@gmail.com
+
+Ourda Azizi – Étudiante en Génie Informatique et réseaux, EMSI Marrakech
+  Contact : ourdaazizi2@gmail.com
+
+École Marocaine des Sciences de l’Ingénieur (EMSI), Marrakech, Maroc
+
+  Développements Futurs
+Support multilingue (arabe, amazigh)
+
+Développement de l’application iOS
+
+Fonctionnalités de traitement hors ligne
+
+Adaptation pour enfants
+
+Analyse vocale en temps réel
+
+  Licence
+Licence MIT – Voir le fichier LICENSE pour plus de détails
+
+  Dépôt GitHub
+https://github.com/NisrineLachguer/AI-VoiceTherapy
