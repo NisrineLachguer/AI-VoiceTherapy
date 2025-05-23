@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_record"
+        android:icon="@drawable/ic_record"
+        android:title="@string/nav_record" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history"
+        android:title="@string/nav_history" />
+
+    <item
+        android:id="@+id/nav_exercises"
+        android:icon="@drawable/ic_exercises"
+        android:title="@string/nav_exercises" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/nav_profile" />
+</menu>

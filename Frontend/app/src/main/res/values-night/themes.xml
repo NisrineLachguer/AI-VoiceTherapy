@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ai_voice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/accent_color</item>
+        <item name="colorPrimaryVariant">@color/accent_dark</item>
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="android:statusBarColor">@color/accent_dark</item>
+        <!-- Text appearance -->
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="buttonStyle">@style/AppButtonStyle</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Ai_voice.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

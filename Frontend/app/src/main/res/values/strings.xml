@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ai_voice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_record">Enregistrer</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_exercises">Exercices</string>
+    <string name="nav_profile">Profil</string>
+</resources>

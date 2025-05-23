@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/splash_background"
+    tools:context=".ui.RecordVoiceFragment">
+
+    <ImageView
+        android:id="@+id/imageViewMic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_record"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enregistrement Vocal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMic" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Prêt à enregistrer"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStatus">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonRecord"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:text="Commencer l'enregistrement"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_record"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#9C27B0"
+               />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonStopRecord"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:enabled="false"
+                android:text="Arrêter l'enregistrement"
+                android:textSize="16sp"
+                app:icon="@android:drawable/ic_media_pause"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#E91E63"
+               />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonAnalyze"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:text="Analyser l'enregistrement"
+                android:textSize="16sp"
+                app:icon="@android:drawable/ic_menu_send"
+                app:iconGravity="textStart"
+                app:iconTint="@color/white"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#4CAF50"
+                app:iconPadding="8dp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ProgressBar
+            android:id="@+id/progressBarRecording"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enregistrement en cours..."
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBarRecording"
+            app:layout_constraintEnd_toEndOf="@+id/progressBarRecording"
+            app:layout_constraintStart_toStartOf="@+id/progressBarRecording"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarRecording" />
+
+        <ProgressBar
+            android:id="@+id/progressBarAnalyzing"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analyse en cours..."
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBarAnalyzing"
+            app:layout_constraintEnd_toEndOf="@+id/progressBarAnalyzing"
+            app:layout_constraintStart_toStartOf="@+id/progressBarAnalyzing"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarAnalyzing" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

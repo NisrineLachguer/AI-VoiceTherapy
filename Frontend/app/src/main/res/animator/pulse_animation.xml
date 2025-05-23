@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="fillColor"
+        android:valueFrom="#E1BEE7"
+        android:valueTo="#9C27B0"
+        android:valueType="colorType"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse" />
+
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:valueFrom="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z"
+        android:valueTo="M12,1C5.92,1 1,5.92 1,12s4.92,11 11,11 11,-4.92 11,-11S18.08,1 12,1zM12,21c-4.96,0 -9,-4.04 -9,-9s4.04,-9 9,-9 9,4.04 9,9 -4.04,9 -9,9z"
+        android:valueType="pathType"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse" />
+</set>

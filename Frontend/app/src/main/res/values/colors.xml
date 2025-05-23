@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="accent_color">#FFB388FF</color> <!-- Mauve clair -->
+    <color name="accent_dark">#FF6A1B9A</color> <!-- Mauve foncé -->
+    <color name="accent_light">#FFE1BEE7</color> <!-- Mauve très clair -->
+
+    <color name="text_secondary">#AAFFFFFF</color> <!-- Blanc semi-transparent -->
+    <color name="text_input_box_stroke">#80FFFFFF</color> <!-- Bordure blanche transparente -->
+    <color name="text_primary">#FFB388FF</color> <!-- Mauve utilisé pour le texte principal -->
+
+    <color name="completed_green">#4CAF50</color>
+    <color name="primary_color">#F456</color>
+    <color name="in_progress_orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="lightBackground">#F5F5F5</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="statusColor">#4CAF50</color> <!-- Vert pour complété -->
+
+</resources>
