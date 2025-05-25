@@ -1,6 +1,8 @@
 # AI-VoiceTherapy
 *Plateforme Automatisée de Rééducation Vocale Utilisant l'Intelligence Artificielle*
 
+https://github.com/user-attachments/assets/2b55d93f-16c1-45b3-8d1b-d1676180f91d
+
 ## Vue d'ensemble
 AI-VoiceTherapy est une application mobile qui exploite le modèle Whisper d'OpenAI pour détecter les troubles de la parole et fournir des exercices thérapeutiques personnalisés. La plateforme vise à rendre l'orthophonie plus accessible grâce à l'analyse automatisée et aux programmes de rééducation sur mesure.
 
