@@ -1,16 +1,15 @@
-# AI-VoiceTherapy - Suivi des Troubles de la Parole et Rééducation avec IA
+# AI-VoiceTherapy - An Automated Platform for Voice Rehabilitation Using Artificial Intelligence
+A Spring Boot application that analyzes speech to detect speech disorders (stuttering, dysphasia) and offers personalized rehabilitation exercises.
 
-Une application Spring Boot qui analyse la voix pour détecter des troubles du langage (bégaiement, dysphasie) et propose des exercices de rééducation personnalisés.
+## Features
 
-## Fonctionnalités
+- Audio file analysis to detect speech disorders
+- Audio transcription via OpenAI Whisper
+- Automatic detection of disorders such as stuttering and dysphasia
+- Generation of personalized rehabilitation exercises
+- User progress tracking
 
-- Analyse de fichiers audio pour détecter des troubles de la parole
-- Transcription audio via OpenAI Whisper
-- Détection automatique de troubles comme le bégaiement et la dysphasie
-- Génération d'exercices de rééducation personnalisés
-- Suivi des progrès des utilisateurs
-
-## Technologies utilisées
+## Technologies Used
 
 - Spring Boot 3.x
 - JPA/Hibernate
@@ -18,51 +17,51 @@ Une application Spring Boot qui analyse la voix pour détecter des troubles du l
 - OpenAI Whisper API
 - Maven
 
-## Prérequis
+## Prerequisites
 
 - Java 17+
 - MySQL
-- Clé API OpenAI
+- OpenAI API Key
 
 ## Installation
 
-1. Clonez le dépôt
-2. Configurez votre base de données MySQL dans `application.properties`
-3. Ajoutez votre clé API OpenAI dans `application.properties`
-4. Exécutez l'application avec Maven:
+1. Clone the repository
+2. Configure your MySQL database in application.properties
+3. Add your OpenAI API key to application.properties
+4. Run the application with Maven:
 
 ```bash
 ./mvnw spring-boot:run
 ```
 
-## Structure du projet
+## Project Structure
 
-- `model/` - Entités JPA (User, VoiceAnalysis, TherapyExercise)
-- `repository/` - Interfaces de persistance des données
-- `service/` - Logique métier et intégration avec OpenAI
-- `controller/` - API REST
-- `config/` - Configuration de l'application
+- `model/` - JPA entities (User, VoiceAnalysis, TherapyExercise)
+- `repository/` - Data persistence interfaces
+- `service/` - Business logic and integration with OpenAI
+- `controller/` - REST API
+- `config/` - Application configuration
 
 ## API Endpoints
 
-### Utilisateurs
-- `POST /api/users/register` - Inscription d'un nouvel utilisateur
-- `POST /api/users/login` - Connexion d'un utilisateur
-- `GET /api/users/{userId}` - Récupérer les informations d'un utilisateur
-- `PUT /api/users/{userId}` - Mettre à jour les informations d'un utilisateur
+### Users
+- `POST /api/users/register` - Register a new user
+- `POST /api/users/login` - Log in a user
+- `GET /api/users/{userId}` - Retrieve user information
+- `PUT /api/users/{userId}` - Update user information
 
-### Analyses vocales
-- `POST /api/analyses/submit` - Soumettre un fichier audio pour analyse
-- `GET /api/analyses/user/{userId}` - Récupérer toutes les analyses d'un utilisateur
-- `GET /api/analyses/{analysisId}` - Récupérer une analyse spécifique
+### Voice Analytics
+- `POST /api/analyses/submit` - Submit an audio file for analysis
+- `GET /api/analyses/user/{userId}` - Retrieve all analyses for a user
+- `GET /api/analyses/{analysisId}` - Retrieve a specific analysis
 
-### Exercices de thérapie
-- `GET /api/exercises/user/{userId}` - Récupérer tous les exercices d'un utilisateur
-- `PUT /api/exercises/{exerciseId}/complete` - Marquer un exercice comme complété
+### Therapy Exercises
+- `GET /api/exercises/user/{userId}` - Retrieve all of a user's exercises
+- `PUT /api/exercises/{exerciseId}/complete` - Mark an exercise as completed
 
 ## Configuration
 
-Dans le fichier `application.properties`, assurez-vous de configurer :
+In the `application.properties` file, make sure to configure:
 
 ```properties
 # Base de données
@@ -74,6 +73,6 @@ spring.datasource.password=votre_mot_de_passe
 openai.api.key=votre_cle_api_openai
 ```
 
-## Licence
+## License
 
-Ce projet est sous licence MIT.
+This project is licensed under the MIT License.
