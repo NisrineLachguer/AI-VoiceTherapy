@@ -1,111 +1,111 @@
 # AI-VoiceTherapy
-*Plateforme Automatisée de Rééducation Vocale Utilisant l'Intelligence Artificielle*
+*An Automated Platform for Voice Rehabilitation Using Artificial Intelligence*
 
 https://github.com/user-attachments/assets/2b55d93f-16c1-45b3-8d1b-d1676180f91d
 
-## Vue d'ensemble
-AI-VoiceTherapy est une application mobile qui exploite le modèle Whisper d'OpenAI pour détecter les troubles de la parole et fournir des exercices thérapeutiques personnalisés. La plateforme vise à rendre l'orthophonie plus accessible grâce à l'analyse automatisée et aux programmes de rééducation sur mesure.
+## Overview
+AI-VoiceTherapy is a mobile app that leverages OpenAI's Whisper model to detect speech disorders and provide personalized therapeutic exercises. The platform aims to make speech therapy more accessible through automated analysis and tailored rehabilitation programs.
 
-## Fonctionnalités Principales
-* **Analyse Automatique de la Parole** : Détection en temps réel des troubles de la parole grâce à l'IA
-* **Thérapie Personnalisée** : Exercices adaptés basés sur les conditions détectées
-* **Suivi des Progrès** : Surveillance complète de l'évolution de la rééducation
-* **Intégration Professionnelle** : Outils pour les orthophonistes et les professionnels de santé
+## Main Features
+* **Automatic Speech Analysis** :Real-time detection of speech disorders using AI
+* **Personalized Therapy** : Adapted exercises based on detected conditions
+* **Progress Monitoring** : Complete monitoring of rehabilitation progress
+* **Professional Integration** : Tools for speech-language pathologists and healthcare professionals
 
-## Conditions Prises en Charge
-* Bégaiement
-* Dysphasie
-* Dysarthrie
-* Apraxie de la parole
+## Conditions Supported
+* Stuttering
+* Dysphasia
+* Dysarthria
+* Apraxia of speech
 
-## Stack Technologique
+## Technology Stack
 
-### Application Mobile (Android)
-* Java avec Android SDK
-* Interface utilisateur Material Design
-* Retrofit pour la communication API
-* Enregistrement et traitement audio
+### Mobile Application (Android)
+* Java with Android SDK
+* Material Design user interface
+* API communication retrofit
+* Audio recording and processing
 
-### Services Backend
-* Framework Spring Boot
-* Base de données MySQL
-* Authentification JWT
-* Intégration API OpenAI Whisper
+### Backend Services
+* Spring Boot Framework
+* MySQL Database
+* JWT Authentication
+* OpenAI Whisper API Integration
 
-### Composants IA
-* OpenAI Whisper pour la reconnaissance vocale
-* Algorithmes d'analyse de motifs
-* Système de notation de gravité (échelle 0-10)
-* Génération automatique d'exercices
+### AI Components
+* OpenAI Whisper for speech recognition
+* Pattern analysis algorithms
+* Severity scoring system (0-10 scale)
+* Automatic exercise generation
 
 ## Architecture
-L'application suit une architecture à trois niveaux :
-* **Couche de Présentation** : Interface mobile Android
-* **Logique Métier** : API REST Spring Boot
-* **Couche de Données** : Base de données MySQL avec JPA/Hibernate
+The application follows a three-tier architecture:
+* **Presentation Layer**: Android mobile interface
+* **Business Logic**: Spring Boot REST API
+* **Data Layer**: MySQL database with JPA/Hibernate
 
-## Exigences d'Installation
+## Installation Requirements
 
-### Prérequis Système
+### System Requirements
 * Android 5.0+ (API 21+)
 * Java JDK 8+
 * MySQL 8.0+
-* Connexion Internet pour le traitement IA
+* Internet connection for AI processing
 
 ### Configuration
-1. Cloner le dépôt
-2. Configurer la base de données MySQL
-3. Définir les identifiants API OpenAI
-4. Déployer le backend Spring Boot
-5. Compiler l'application Android
+1. Clone the repository
+2. Configure the MySQL database
+3. Set the OpenAI API credentials
+4. Deploy the Spring Boot backend
+5. Compile the Android application
 
-## Flux d'Utilisation
-1. **Inscription** : Créer un compte utilisateur
-2. **Enregistrement** : Capturer un échantillon vocal (10-30 secondes)
-3. **Analyse** : Traitement automatique via l'API Whisper
-4. **Résultats** : Visualiser le diagnostic et le score de gravité
-5. **Thérapie** : Accéder aux exercices personnalisés
+## User Flow
+1. **Registration**: Create a user account
+2. **Recording**: Capture a voice sample (10-30 seconds)
+3. **Analysis**: Automatic processing via the Whisper API
+4. **Results**: View the diagnosis and severity score
+5. **Therapy**: Access personalized exercises
 
-## Exercices Thérapeutiques
+## Therapeutic Exercises
 
-### Catégories d'Exercices
-* **Construction de Phrases** : Amélioration de la grammaire et de la syntaxe
-* **Association Mot-Image** : Enrichissement du vocabulaire
-* **Entraînement à l'Articulation** : Exercices de prononciation
-* **Exercices Prosodiques** : Travail sur le rythme et l'intonation
+### Exercise Categories
+* **Sentence Building**: Improve grammar and syntax
+* **Word-Picture Matching**: Expand your vocabulary
+* **Articulation Training**: Pronunciation exercises
+* **Prosodic Exercises**: Work on rhythm and intonation
 
-### Suivi des Progrès
-* Suivi de la completion des sessions
-* Analyses de performance
-* Analyse des tendances de gravité
-* Rapports professionnels
+### Progress Tracking
+* Session Completion Tracking
+* Performance Analytics
+* Severity Trend Analysis
+* Professional Reports
 
 ## Limitations
-* Nécessite une validation professionnelle pour un usage clinique
-* Qualité audio dépendante de l'environnement
-* Connexion Internet requise pour l'analyse
-* Supporte actuellement uniquement le français
+* Requires professional validation for clinical use
+* Audio quality is dependent on the environment
+* Internet connection required for analysis
+* Currently supports French only
 
-## Équipe de Développement
-**Nissrine Lachguer** - Étudiante en Génie informatique et réseau, EMSI Marrakech  
-Contact : nisrinelachguer37@gmail.com
+## Development Team
+**Nissrine Lachguer** - Student in Computer and Network Engineering, EMSI Marrakech
+Contact: nisrinelachguer37@gmail.com
 
-**Ourda Azizi** - Étudiante en Génie informatique et réseaux, EMSI Marrakech  
-Contact : Ourdaazizi2@gmail.com
+**Ourda Azizi** - Student in Computer and Network Engineering, EMSI Marrakech
+Contact: Ourdaazizi2@gmail.com
 
-*École Marocaine des Sciences de l'Ingénieur (EMSI), Marrakech, Maroc*
+*Moroccan School of Engineering Sciences (EMSI), Marrakech, Morocco*
 
-## Développement Futur
-* Support multi-langues (Arabe, Anglais)
-* Application iOS
-* Capacités de traitement hors ligne
-* Adaptation pédiatrique
-* Fonctionnalités d'analyse en temps réel
+## Future Development
+* Multi-language support (Arabic, English)
+* iOS app
+* Offline processing capabilities
+* Pediatric adaptation
+* Real-time analysis features
 
-## Licence
-Licence MIT - Voir le fichier LICENSE pour plus de détails
+## License
+MIT License - See the LICENSE file for details
 
-## Dépôt
+## Repository
 https://github.com/NisrineLachguer/AI-VoiceTherapy
 
-*AI-VoiceTherapy : Rendre l'orthophonie accessible grâce à l'intelligence artificielle*
+*AI-VoiceTherapy: Making speech therapy accessible through artificial intelligence*
