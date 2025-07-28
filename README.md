@@ -94,19 +94,19 @@ The application follows a three-tier architecture:
 **Ourda Azizi** - Student in Computer and Network Engineering, EMSI Marrakech
 Contact: Ourdaazizi2@gmail.com
 
-** Mohamed Lachgar ** (Researchgate)
+**Mohamed Lachgar** (Researchgate)
 
 *Moroccan School of Engineering Sciences (EMSI), Marrakech, Morocco*
 
 ## Contact
 
 - **Email** :
-  [nisrinelachguer37@gmail.com](mailto:nisrinelachguer37@gmail.com)
-  [Ourdaazizi2@gmail.com](mailto:Ourdaazizi2@gmail.com) 
+  - [nisrinelachguer37@gmail.com](mailto:nisrinelachguer37@gmail.com)
+  - [Ourdaazizi2@gmail.com](mailto:Ourdaazizi2@gmail.com) 
 
 - **LinkedIn** :
- [linkedin.com/in/nissrine-lachguer](https://www.linkedin.com/in/nissrine-lachguer)
- [linkedin.com/in/ourda-azizi](https://www.linkedin.com/in/ourda-azizi)  
+   - [linkedin.com/in/nisrine-lachguer](https://www.linkedin.com/in/nisrine-lachguer)
+   - [linkedin.com/in/ourda azizi](https://www.linkedin.com/in/ourda-azizi)  
 
 
 ## Future Development
