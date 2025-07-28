@@ -92,7 +92,6 @@ The application follows a three-tier architecture:
 **Nisrine Lachguer** - Student in Computer and Network Engineering, EMSI Marrakech
 
 **Ourda Azizi** - Student in Computer and Network Engineering, EMSI Marrakech
-Contact: Ourdaazizi2@gmail.com
 
 **Mohamed Lachgar** (Researchgate)
 
