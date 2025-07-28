@@ -99,15 +99,15 @@ Contact: Ourdaazizi2@gmail.com
 *Moroccan School of Engineering Sciences (EMSI), Marrakech, Morocco*
 
 ## Contact
-* Email:
 
-   nisrinelachguer37@gmail.com
-   Ourdaazizi2@gmail.com
-  
-* LinkedIn:
+- **Email** :
+  [nisrinelachguer37@gmail.com](mailto:nisrinelachguer37@gmail.com)
+  [Ourdaazizi2@gmail.com](mailto:Ourdaazizi2@gmail.com) 
 
-  nisrine-lachguer
-  Ourda Azizi
+- **LinkedIn** :
+ [linkedin.com/in/nissrine-lachguer](https://www.linkedin.com/in/nissrine-lachguer)
+ [linkedin.com/in/ourda-azizi](https://www.linkedin.com/in/ourda-azizi)  
+
 
 ## Future Development
 * Multi-language support (Arabic, English)
