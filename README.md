@@ -89,7 +89,7 @@ The application follows a three-tier architecture:
 * Currently supports French only
 
 ## Development Team
-**Nissrine Lachguer** - Student in Computer and Network Engineering, EMSI Marrakech
+**Nisrine Lachguer** - Student in Computer and Network Engineering, EMSI Marrakech
 Contact: nisrinelachguer37@gmail.com
 
 **Ourda Azizi** - Student in Computer and Network Engineering, EMSI Marrakech
