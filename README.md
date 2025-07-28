@@ -88,14 +88,26 @@ The application follows a three-tier architecture:
 * Internet connection required for analysis
 * Currently supports French only
 
-## Development Team
+## Contributors
 **Nisrine Lachguer** - Student in Computer and Network Engineering, EMSI Marrakech
-Contact: nisrinelachguer37@gmail.com
 
 **Ourda Azizi** - Student in Computer and Network Engineering, EMSI Marrakech
 Contact: Ourdaazizi2@gmail.com
 
+** Mohamed Lachgar ** (Researchgate)
+
 *Moroccan School of Engineering Sciences (EMSI), Marrakech, Morocco*
+
+## Contact
+* Email:
+
+   nisrinelachguer37@gmail.com
+   Ourdaazizi2@gmail.com
+  
+* LinkedIn:
+
+  nisrine-lachguer
+  Ourda Azizi
 
 ## Future Development
 * Multi-language support (Arabic, English)
