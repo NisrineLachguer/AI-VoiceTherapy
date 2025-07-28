@@ -44,6 +44,8 @@ The application follows a three-tier architecture:
 * **Business Logic**: Spring Boot REST API
 * **Data Layer**: MySQL database with JPA/Hibernate
 
+  <img width="764" height="456" alt="Image" src="https://github.com/user-attachments/assets/e7c06e4d-69c0-4905-a8cb-2b0980b6f478" />
+
 ## Installation Requirements
 
 ### System Requirements
