@@ -104,8 +104,8 @@ The application follows a three-tier architecture:
   - [Ourdaazizi2@gmail.com](mailto:Ourdaazizi2@gmail.com) 
 
 - **LinkedIn** :
-   - [linkedin.com/in/nisrine-lachguer](https://www.linkedin.com/in/nisrine-lachguer)
-   - [linkedin.com/in/ourda azizi](https://www.linkedin.com/in/ourda-azizi)  
+   - [Nisrine-lachguer](https://www.linkedin.com/in/nisrine-lachguer)
+   - [Ourda azizi](https://www.linkedin.com/in/ourda-azizi)  
 
 
 ## Future Development
